@@ -66,6 +66,9 @@
         gap: 20px;
         padding-bottom: 30px;
     }
+    .mob{
+        display: none;
+    }
 
     a {
         color: white;
@@ -106,11 +109,15 @@
         .under-construction-img {
             width: 80px;
         }
-        p {
+        .mob{
+            display: block;
             font-size: 1.5rem;
-            font-weight: 600;
-            width: 300px;
             margin-top: -15px;
+            font-family: "Crimson Pro", serif;
+
+        }
+        p {
+            display: none;
 
         }
     }
@@ -124,6 +131,7 @@
     
     <img src="ELS LOGO.svg" alt="">
     <p>New ELS LEGAL Website is Launching Soon</p>
+    <p class="mob">New ELS LEGAL Website <br> is Launching Soon</p>
 
     <h3>For Any Enquiries:</h3>
     <div class="contact">
